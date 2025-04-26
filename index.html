@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Integration and Dynamic DOM</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/app.js" defer></script>
+</head>
+
+<body>
+  <!-- Header Start -->
+  <header>
+    <nav>
+      <div class="left-side">
+        <p><a href="#">News</a></p>
+        <p><a href="#">Portal</a></p>
+      </div>
+      <div class="right-side">
+        <p><a href="#">News</a></p>
+        <p><a href="#">Blog</a></p>
+        <p id="imagesIconContainer"><a href="#"><img id="imagesIcon" src="images/3135715.png" alt="userIcon"></a></p>
+      </div>
+    </nav>
+  </header>
+
+  <hr>
+
+  <!-- Main Start -->
+  <main>
+    <!-- news category section -->
+    <section id="all-category-section">
+      <a class="home" href="#">Home</a>
+
+    </section>
+
+    <!-- search box -->
+    <section class="search-section">
+      <div>
+        <input id="input-text" type="text" placeholder="Search By Category Id">
+        <button onclick="showNewsCardBySearch()">Search</button>
+      </div>
+    </section>
+
+    <!-- news card section -->
+    <section id="news-card-section" class="news-card-section">
+     
+    </section>
+
+  </main>
+
+  <!-- Footer Start -->
+  <footer class="footer">
+    <p> &copy; Copyright 2025 News Portal</p>
+  </footer>
+
+</body>
+
+</html>
